@@ -1,0 +1,19 @@
+{
+  "name": "bun-blog",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^9.1.5"
+  },
+  "scripts": {
+    "clean": "rm -rf dist && echo 'Done.'",
+    "dev": "bun server.ts"
+  }
+}
